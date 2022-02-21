@@ -1,0 +1,95 @@
+.form-group{
+    color: #B22222;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.form-control{
+    border: 2px solid black;
+}
+.b92{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+}
+.form-button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: orangered;
+    box-shadow: inset 0 0 20px blue;
+}
+.form-button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.form-button:disabled{
+    color: darkgray;
+    box-shadow: inset 0 0 20px gray;
+}
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: rgb(253, 212, 212);
+    text-align: center;
+  }
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: white;
+    color: red;
+    border: 1px solid gray;
+  }
+  .header h1 {
+    font-size: 40px;
+  }
+  .header p {
+    font-size: 35px;
+    color: black;
+    font-style: italic;
+  }
+  #slide{
+    height: 60px;
+    background-color:rgb(253, 212, 212);
+  }
+  #slide h2{
+    line-height: 30px;
+    font-size: 30px;
+    color: maroon;
+    font-style: italic;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: red;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: white;
+    color: red;
+  }
+  .images {
+    width: 100%;
+    height: 200px;
+  }
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background: red;
+    margin-top: 10px;
+    color: white;
+    font-size: small;
+    font-style: italic;
+  }
